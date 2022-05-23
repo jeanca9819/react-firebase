@@ -12,7 +12,7 @@ const firebaseConfig = {
 };
 
   //Inicializar Firebase
-  var fireDB=firebase.initializeApp(firebaseConfig);
+  var fireDB = firebase.initializeApp(firebaseConfig);
 
   //Exportar conexión para utilizar en App.js
   export default fireDB.database().ref();

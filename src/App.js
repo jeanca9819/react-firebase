@@ -88,6 +88,8 @@ class App extends Component {
     return (
       <div className="App">
         <br />
+        <h1>CRUD of Users with React.js and Firebase</h1>
+        <br />
         <button className="btn btn-success" onClick={()=>this.setState({addModal: true})}>Add User</button>
         <br />
         <br />
@@ -144,8 +146,6 @@ class App extends Component {
         <button className="btn btn-danger" onClick={()=>this.setState({addModal: false})}>Cancel</button>
       </ModalFooter>
     </Modal>
-
-
 
     <Modal isOpen={this.state.editModal}>
       <ModalHeader>Edit User</ModalHeader>
